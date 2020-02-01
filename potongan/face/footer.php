@@ -1,0 +1,1 @@
+<div class='footer'>Copyright &copy; 2015 by Nawina.com. All Rights Reserved.</div>

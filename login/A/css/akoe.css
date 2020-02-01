@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+body, div{margin:0;} body{background:url(A/images/bg.jpg) repeat-x #e4e9ec;  padding:0; font-family:Arial, Helvetica, sans-serif;
+font-size:11px; margin:0px auto auto auto; color:#000;}
+p{padding:2px; margin:0px;}
+.main{width:100%; height:auto;  position:absolute; margin:auto; top:0; bottom:0; left:0; right:0;}
+.myenu{width:950px; margin-left:0px; right:0; left:0;  height:20px;}
+.isi{width:1070px;  background-color:#6FC; position:relative; left:0; right:0; margin:auto;}
+.footer{width:100%; background-color:#F00; text-align:center; position:relative; clear:both;  height:60px;  bottom:0px;}
+.salah{width:700px; height:300px; }
+/*-----------aWal-------------UMUM---------------------------------*/
+.metode {width:100%; height:35px; background-color:#666; border-radius:7px; text-align:center; font-size:13px; font-weight:bold; color:#fff; line-height:30px;}
+.metode1 {width:100%; margin-top:180px; height:35px; background-color:#666; border-radius:7px; text-align:center; font-size:13px; font-weight:bold; color:#fff; line-height:30px;}
+.metode2 {width:100%; margin-top:720px; height:35px; background-color:#666; border-radius:7px; text-align:center; font-size:13px; font-weight:bold; color:#fff; line-height:30px;}
+.metode3 {width:100%; margin-top:0px; height:35px; background-color:#666; border-radius:7px; text-align:center; font-size:13px; font-weight:bold; color:#fff; line-height:30px;}
+select.date{width: 60px; float:left; background-color:#FFF; color:#000;}
+select.month{width: 115px; float:left; background-color:#FFF; color:#000;}
+select.tahun {width: 75px; float:left; background-color:#FFF; color:#000;}
+/*------------------------UMUM----------------aKHir-----------------*/
+/*--------aWal----------------Head---------------------------------*/
+.atas{width:100%; left:0px; right:0; font:"Lucida Sans Unicode","Lucida Grande", sans-serif; font-size:18px; background-color:#06F; height:40px;}
+.atase{width:200px; height:40px; float:left; }
+.languages{float:right; width:250px; padding:8px 0 0 0; }
+.lang_text{float:left; padding:0 5px 0 0; color:#FFF;}
+a.lang{display:block; float:left; padding:0 5px 0 5px;}
+.head{width:100%; height:440px; position:relative; background-color:#06F;}
+.header{width:100%; top:40px; left:0px; right:0; position:absolute;}
+/*------------------------Head-----------aKHir----------------------*/
+/*------------aWaL--------Kiri--------------*/
+.kiri{top:53px; margin-top:0px; position:absolute; float:left; width:180px; border-radius:7px; height:auto; margin-left:0px;}
+.cari1 {font-size:10px;}
+input.caris{width:160px; height:30px; }
+.kiri1{background-color:#CCC; width:180px; height:180x; border-radius:9px; margin-bottom:5px;}
+.field { background:#FFF; color:#000; border:solid 1px #dedede; font-size:10px; padding:2px;}
+.box { padding:1px; border:solid 1px #dedede; margin-bottom:5px;}
+.box-content { padding:0px;}
+.search { min-height:210px;}
+.search label { display:block; padding-bottom:3px; color:#000; }
+.search .field { display:block; margin-bottom:10px; }
+.search .inline-field label { display:inline; padding:0; }
+.search .inline-field .field { display:inline; margin:0; }
+.search input.field { width:180px; }
+.search select.field { width:170px; }
+.search select.small-field { width:72px; font-size:10px; }
+.search-submit { width:70px; background:#8b0000; border:0; color:#fff; height:27px; display:block; line-height:26px; cursor:pointer; margin:12px 0 10px 0;}
+.dtl{ height:500px; width:700px; margin-top:0px; text-align:left; color:#000; font-size:16px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.kiri2{background-color:transparent; width:170px; height:430px; border-radius:5px; padding:0px; margin-bottom:10px;}
+label.usel {font-size:12px; color:#000; }
+.silakan{width:180px; height:10px; color:#000; text-align:center; }
+.login_area {border-radius:5px; background-repeat:no-repeat; border-radius:7px; background-color:#CCC; padding:0px; float:left; 
+height:450px; width:180px; margin-right:0px; margin-bottom:0px; left:0; right:0;}
+.loginzone {border-radius:5px; background-repeat:no-repeat; float:left; height:210px; width:180px; 
+margin:0px; left:0; right:0;}
+.login label { width:80px; float:left; color:#000; }
+.loginhead {background:#fff; width:180px; height:80px;}
+.logout{width:60px; height:25px; background-color:#fff; border-radius:3px; text-align:center; color:#fff; }
+form.login { width:170px; height:220px; padding:5px; border-radius:7px;  font-size:12px;}
+.belumemiliki {width:180px; height:95px; margin-left:5px; margin-top:18px; }
+ input.user{width:150px; color:#000; height:20px; }
+ input.pass{width:150px; color:#000; height:20px; }
+.belum {width:150px; float:left; height:25px;  margin-left:5px; }
+.daftar {width:60px; float:left; height:25px; margin:0px; padding:0px 0px 0px 5px; background-color:#FC0; font-size:12px;}
+input.masuk {width:50px; height:30px; background-color:#09F; border-radius:3px; color:#0F0; font-size:12px;}
+input.hapus {width:50px; height:30px; background-color:#09F; border-radius:3px; color:#0F0; font-size:12px;}
+.lupa {width:100px; height:25px; margin-left:15px; font-size:12px;}
+
+.kiri3{background-color:transparent; width:18px; height:250px; margin-top:35px; border-radius:5px; padding:0px; margin-bottom:10px;}
+
+/*--------------KIRI------------------*/
+
+
+/*--------------oferta------------------*/
+.oferta{width:100%; height:156px; background:#0CF; border-radius:9px;
+float:left; padding:0px; margin:0px;}
+.oferta_img{float:left; width:165px; height:113px; border-radius:3px; padding:10px 0 0 10px;}
+.oferta_title{font-size:15px; color:#F00; font-weight:bold;}
+.oferta_details{width:340px; float:left; padding:20px 0 0 30px;}
+.oferta_text{padding:5px 0 5px 0; font-size:12px; color:#000; text-align:justify; line-height:15px;}
+.prod_price{padding:5px 0 5px 0;}
+span.reduce{color:#F00; text-decoration:line-through;}
+span.price{color:#00F;}
+.prod_price_big{padding:5px 0 5px 0; font-size:16px;}
+/*-------Tengah/center content--------------------------*/
+.tengah{float:left; width:700px; height:auto; position:relative; margin-left:185px; background-color:#CCC; top:10px; right:0x; border-radius:7px; margin-bottom:80px;}
+.center_content{width:700px; height:auto; float:left; padding:0px;}
+.center_title_bar{width:575px; height:31px; float:left; padding:0 0 0 10px; margin:0 0 0 5px; line-height:31px; font-size:12px; color:#159DCC; font-weight:bold; background:url(../images/bar_bg.gif) no-repeat center;}
+
+
+/*---------prod_box----------*/
+.prod_box{width:199px; height:auto; float:left; padding:10px 10px 10px 11px;}
+.center_prod_box{width:205px;height: auto;float:left; text-align:center;padding:0px; margin:0px; border:1px #F0F4F5 solid;}
+.prod_details_tab{width:205px; height:31px; float:left; }
+img.left_bt{float:left; padding:6px 0 0 6px;}
+a.prod_details{width:75px; height:24px; display:block; float:right; background:url(../images/link_bg.gif) no-repeat center;
+margin:2px 5px 0 0; text-align:center; line-height:24px; text-decoration:none; color:#159dcc;}
+a.prod_buy{width:75px; height:24px; display:block; float:left; background:url(../images/link_bg.gif) no-repeat center;
+margin:2px 0 0 5px; text-align:center; line-height:24px; text-decoration:none; color:#006600;}
+/*---------prod_box_big----------*/
+.prod_box_big{width:554px; height:auto; float:left; padding:10px 10px 15px 15px;}
+.center_prod_box_big{width:650px; height:auto; float:left; text-align:center; padding:0 0 10px 0; margin:0px; border:1px #F0F4F5 solid;}
+.product_img_big{width:170px; padding:10px 0 0 10px; float:left;}
+.details_big_box{width:345px; float:left; padding:0 0 0 15px; text-align:left;}
+.product_title_big{color:#ff8a00; padding:5px 0 5px 0; font-weight:bold; font-size:14px;}
+.specifications{font-size:12px; font-weight:bold; line-height:18px;}
+.thumbs{padding:8px 5px 8px 5px; border:1px #DFD1D1 solid; margin:15px 0 0 0;}
+.thumbs a{padding:3px;}
+.prod_price_big{padding:5px 0 5px 0; font-size:16px;}
+a.addtocart{width:76px; height:27px; display:block; float:left; background:url(../images/addtocart.gif) no-repeat left;
+padding:0 0 0 33px; text-decoration:none; line-height:27px; color:#1c4a52;}
+a.compare{width:76px; height:27px; display:block; float:left; margin:0 0 0 10px; background:url(../images/compare.gif) no-repeat left; padding:0 0 0 33px; text-decoration:none; line-height:27px; color:#1c4a52;}
+span.blue{color:#159DCC;}
+
+/*---------prod_box_big----------*/
+
+/*--------Awal--------Konfirmasi Pembayaran--------------*/
+.konkon_form{width:665px; height:auto; float:left; padding-left:40px; padding-top:10px; padding-right:70px; padding-bottom:50px;}
+.form_row{width:665px; height:auto; clear:both; padding:10px 0 10px 0; color:#a53d17;}
+.konfirm {width:665px; height:80px; text-align:center; color:#000; margin-top:15px; font-size:27px;}
+label.konkon{width:270px; float:left; font-size:12px; text-align:left; padding:4px 5px 0 0; color:#333333;}
+input.konkon_input{width:60%; height:18px; background-color:#fff; color:#999999; border:1px #DFDFDF solid; float:left;}
+input.rupiah_input{width:auto; height:18px; background-color:#fff; color:#999999; border:1px #DFDFDF solid; float:left;}
+textarea.konkon_textarea{width:253px; height:100px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #999999; background-color:#fff; border:1px #DFDFDF solid; float:left;}
+a.konkon{width:99px; height:27px; display:block; float:right; margin:0 0 0 10px; background:url(images/contact_bt.gif) no-repeat left; padding:0 0 0 10px; text-decoration:none; line-height:27px; color:#1c4a52;}
+.send_kami {width:40px; height:25px; margin-top:50px; font-size:18px; background:#0F0; color:#00C; padding:10px; border-radius:5px;}
+
+select.bank{width: 115px; float:left; background-color:#FFF; color:#000;}
+/*----------------Konfirmasi Pembayaran-------Akhir-------*/
+/*--------Awal--------Hubungi Kami--------------*/
+.contact_form{width:355px; height:auto; float:left; padding:50px 0px 50px 50px;}
+.form_row{width:335px; clear:both; padding:10px 0 10px 0; color:#a53d17;}
+label.contact{width:75px; float:left; font-size:12px; text-align:left; padding:4px 5px 0 0; color:#333333;}
+input.contact_input{width:330px; height:18px; background-color:#fff; color:#000; border:1px #DFDFDF solid; float:left;}
+textarea.contact_textarea{width:330px; height:300px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; background-color:#fff; border:1px #DFDFDF solid; float:left;}
+a.contact{width:99px; height:27px; display:block; float:right; margin:0 0 0 10px; background:url(images/contact_bt.gif) no-repeat left; padding:0 0 0 10px; text-decoration:none; line-height:27px; color:#1c4a52;}
+.send_kami {width:40px; height:25px; margin-top:50px; font-size:18px; background:#FC0; padding:10px; border-radius:5px;}
+
+h3 {color:#000;}
+
+/*---------------Hubungi Kami--------Akhir------*/
+
+/*--------------Awal---------------REGIawal----------------------------------------*/
+.contact_form{width:355px; height:auto; float:left; padding:0px;}
+form#anu {width:auto; height:auto; margin:10px auto; padding:50px; border-radius:8px;}
+h1 {margin: 0 0 30px 0; text-align: center; color:#000;}
+input.kamu { background: rgba(255,255,255,0.1); border:none; font-size:18px; height:auto; margin:0; outline:0; padding:5px; margin-bottom:30px;  background-color:#FFF; color:#000; box-shadow:0 1px 0 rgba(0,0,0,0.03) inset;}
+textarea.kamu { background: rgba(255,255,255,0.1); border:none; font-size:18px; height:auto; margin:0; outline:0; padding:5px; width:200px; margin-bottom:30px;  background-color:#FFF; color:#000; box-shadow:0 1px 0 rgba(0,0,0,0.03) inset;}
+input[type="radio"],
+input[type="checkbox"] { margin: 0 4px 8px 0;}
+select {padding:3px; height:32px; border-radius:2px;}
+button {padding:19px 39px 18px 39px; color:#FFF; background-color:#0F0; font-size:18px; text-align:center; font-style:normal; border-radius:5px;
+  width:100%; border:1px solid #3ac162; border-width:1px 1px 3px;  box-shadow:0 -1px 0 rgba(255,255,255,0.1) inset; margin-bottom:60px;}
+fieldset {margin-bottom:30px; border:none;}
+legend {font-size:1.4em; margin-bottom:10px;}
+label {display:block; margin-bottom:8px; color:#000;}
+label.light {font-weight:300; display:inline;}
+.number {background-color:#5fcf80; color:#000; height:30px; width:30px; display:inline-block; font-size:0.8em; margin-right:4px; line-height:30px; text-align:center; text-shadow: 0 1px 0 rgba(255,255,255,0.2); border-radius:100%;}
+input.tempat{width: 115px; float:left; background-color:#FFF; color:#000;}
+/*-----------------------------REGI----------------aKHIR-----------------------*/
+/*---------prod_box_big----------*/
+/*----------------Kanan--------------*/
+.kanan{; margin-left:890px; top:10px; width:180px; height:auto; background-color:transparent; position:relative;}
+
+.kanan1{ border-radius:7px; width:180px; height:100px; background-color:#FFF; margin-bottom:10px;}
+.shopping_cart{width:180px; height:84px; text-align:center;}
+.cart_title{font-size:12px; color:#00F; font-weight:bold; padding:0px;}
+.cart_details{width:115px; float:left; padding:5px 0 0 15px; color:#060; text-align:left;}
+.cart_icon{float:left; padding:5px 0 0 5px;}
+span.border_cart{width:100px; height:1px; margin:3px 0 3px 0;display:block; border-top:1px #999999 dashed;}
+.title_box{width:180px; height:30px; margin:5px 0 0 0; background:url(../images/menu_title_bg.gif) no-repeat center;
+text-align:center; font-size:13px; font-weight:bold; color:#159dcc; line-height:30px;}
+.kanan2{ border-radius:7px; width:180px; font-size:10px; color:#847676; font-weight:bold; padding:0px; color:#06F; height:270px; background-color:#CCC; margin-bottom:10px;}
+.kanan3{border-radius:7px; width:180px; height:250px; background-color:#CCC; margin-bottom:10px;}
+.kanan4{border-radius:7px; width:180px; height:250px; background-color:#CCC; margin-bottom:10px; }
+/*-----------prod detil ---------------------------*/
+.s{ width:700px; height:300px; }
+.d{ width:215px; height:250px; float:left; padiing:5px;}
+.a{ width:150px; height:250px; float:left; padiing:5px; margin-top:10px; color:#000; font-size:16px;}
+.f{ width:335px; height:250px; float:left; padiing:5px; margin-top:10px; color:#000; font-size:16px;}
+.g{width:205px; height:31px; float:left; margin-left:30px; margin-top:70px; }
+a.g{width:75px; height:24px; display:block; float:right; background:url(file:///F|/htdocs/images/link_bg.gif) no-repeat center;
+margin:2px 5px 0 0; text-align:center; line-height:24px; text-decoration:none; color:#159dcc;}
+

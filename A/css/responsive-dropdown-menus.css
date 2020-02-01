@@ -1,0 +1,74 @@
+/**
+* Menu toggle base styling
+*/
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.428571429;color:#333;background-color:#fff}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.container:before,.container:after{display:table;content:" "}.container:after{clear:both}.container:before,.container:after{display:table;content:" "}.container:after{clear:both}
+body{color:#858585}
+a, a:hover, a:active{color: #ff4800;}
+img{max-width:100%}
+.topHeaderSection{background:#fff; padding:0}
+.header {z-index: 999; position: relative; padding: 0;}
+/* Toggle menu */
+.navbar-collapse {background: #fff;z-index: 9999;}
+.navbar-toggle {border-radius: 0;outline:0}
+.navbar-toggle span {border-color: #ff0000;background: red;}
+.nav>li>a:hover, .nav>li>a:focus {text-decoration: none;background-color: #fff;}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {background-color: #fff; border-color: #428bca;}
+.navbar-nav>li>a {padding-top: 6px;padding-bottom: 8px;color: #858585;}
+.navbar-nav>li.active>a, .navbar-nav>li>a:hover {color: #ff4800}
+
+.navbar-nav.navbar-right:last-child {margin-right: -15px;margin-top: 34px; margin-bottom: -18px;}
+.btn-brand{background-color: #ff4800; border-color: #ff4800;color:#fff}
+.btn-brand:hover, .btn-brand:focus, .btn-brand:active, .btn-brand.active, .open .dropdown-toggle.btn-brand {color: #fff; background-color: #F07341; border-color: #F07341;}
+
+.serviceBlock{ padding:38px 0; margin:18px 0}
+.services {padding:38px 0; margin:18px 0}
+.serviceBlock i {float:left; padding:14px; color:#00B8FF; font-size:6em; text-align: center;
+-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;}
+blockquote {border-left: 5px solid #ff4800;}
+@media (max-width: 480px) {
+.topHeaderSection {padding: 0;}
+
+.navbar-nav.navbar-right:last-child {margin-top: 0px;margin-bottom: 0px;}
+.navbar-toggle {margin-top: 21px;}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+
+
+.menu-toggle{  display:block; cursor:pointer; height:36px;}
+.menu-toggle .lines { display:block; float:left; margin:0; padding: 4px 3px; width:36px; border-radius:3px;}
+.menu-toggle .toggle-help { float: left; height:36px; line-height: 36px;}
+.menu-toggle .line { display:block; height:2px; width:26px; margin:5px auto 5px auto; background-color:#AAA; border-bottom:1px solid #CCC;}
+/**
+ * Ensures in mobile our menus stack
+ */
+.responsive-menu { clear: both;}
+.responsive-menu,
+.responsive-menu.links.inline { max-height: 0; overflow:hidden;}
+.responsive-menu.menu-toggled,
+.responsive-menu.links.inline.menu-toggled { max-height: none;}
+.responsive-menu li,
+.responsive-menu.inline li { position: relative; display: block;}
+/**
+ * Default media query for Omega and narrow
+ */
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
+  .menu-toggle { display: none;}
+  .responsive-menu,
+  .responsive-menu.links.inline { max-height: none; overflow: visible;}
+  .responsive-menu li { display: inherit;}
+  .responsive-menu.inline li {display: inline-block;}
+  .responsive-menu .sub-menu { position:absolute; z-index:100; max-height:0; overflow:hidden;}
+  /* Display does not animate, max-height does. Max-weight will not animate from 0 - none, so default 900px added.
+      if your sub menu goes past 900px, well..uhh.. */
+  .responsive-menu .sub-menu.active { max-height:none; overflow:visible;}
+  /* Chances are your submenu should stack...if not override this. */
+  .responsive-menu .sub-menu li { display: block;}
+}

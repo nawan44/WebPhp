@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+body,div{margin:0px;}
+.atas{width:100%; height:55px; background-color:#FC0;  z-index:1; position:fixed; }
+.form {background:#FC3; width:100%; height:auto; margin:0px; position:fixed; z-index:1;}
+.search {; padding:8px 15px; width:400px; height:25px; background:#FFF; border:1px solid #dbdbdb;}
+.button {position:relative; height:20px; width:40px; left:0px; margin:0px; border:2px solid #53bd84; background-color:#06F; color:#fafafa;}
+.button:hover  { background-color:#fafafa; color:#207cca;}
+.header{top:100px; bottom:550px; left:0; right:0;}
+.rangka{
+	top: 3px;
+	width: 1430px;
+	height:auto;
+	right: 0;
+	left: 0;
+	margin:0px;
+	position:absolute;
+	bottom: 0;
+}
+.myenu{
+	width: 1200px;
+	right: 0;
+	left: 0;
+	margin-top:300px;
+	height:40px;
+	
+	
+}
+.konten{ width:1360px; height:auto; margin-top:30px; right:0; left:0; }
+.kere{
+	top:300px; margin-top:60px;
+	position: absolute;
+	float: left;
+	width: 250px;
+	height: auto;
+	margin-left: -170px;
+	background-color: transparent;
+	
+}
+.isikiri1 {background-color:transparent; width:250px; height:250px; border-radius:5px; padding:15px;}
+.login label { width:100px; float:left; color:	#03F; }
+.login {width:235px; height:180px; background-color:#CCC; padding:10px; margin-left:-40px; margin-top:10px;
+ border-radius:10px; box-shadow:1px 5px 3px 2px #000; }
+.isikiri2 {padding:0px; margin-top:10px; top:10px; background-color:transparent; margin-left:-20px;} /*background pink*/
+.tengah{float:left;
+	width: 900px;
+	height: auto;
+	position: relative;
+	background-color: #999;
+	top:10px;
+	right:0x;
+	left:70px;
+	
+}
+.isikanan{ margin-top:60px; float:left; margin-left:900px; top:320px; width:200px;
+	height:800px; background-color:transparent; position:absolute; left:80px;}
+
+
+.shopping_cart{width:180px; height:84px; text-align:center;}
+
+
+.cart_details{width:115px; float:left; padding:5px 0 0 15px; text-align:left;}
+.cart_icon{float:left; padding:5px 0 0 5px;}
+.cart_title{font-size:12px; font-size:12px; color:#847676; font-weight:bold; padding:0px;}
+span.border_cart{width:100px; height:1px; margin:3px 0 3px 0; display:block; border-top:1px #999999 dashed;}
+.title_box{width:180px; height:30px; margin:5px 0 0 0; background:url(images/menu_title_bg.gif) no-repeat center;
+text-align:center; font-size:13px; font-weight:bold; color:#159dcc; line-height:30px;}
+span.price{color: #ff8a00;}
+
+.menukanan1{ border-radius:7px; width:200px; height:300px; }
+.menukanan2{border-radius:7px; width:200px; height:300px; background-color:#09F;}
+.menukanan3{border-radius:7px; width:200px; height:300px; background-color:#09F;}
+
+.bawah{  position:absolute; top:1500px;
+  /* negative value of footer height */ background-color:#F00; height:60px; width:100%; bottom:0px;} 
+
+@media only screen and (min-width: 300px) and (max-width:750px){
+
+.header{width:100%; position:absolute;  top:6px; margin:0;}
+.atas{width:100%; height:55px;  background-color:#FC0;  z-index:1; position:fixed; }
+.form {background:#FC3; width:100%; height:auto;  margin:0px; position:fixed; z-index:1;}
+.myenu{
+	width: auto;
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.rangka{top:0; width:100%; right:0; left:0;  margin-left:-230px;}
+.tengah{
+	width: 100%;
+	height: 1000px;
+	top: 370px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+	background-color: #999;
+	tclear: both;
+}
+.kere{
+	width: 100%;
+	top: 85px;
+	background-color: transparent;
+	left: 0;
+	right: 0;
+	margin: 0;
+	clear: both;
+}
+.isikiri1{width:100%; height:150px; position:absolute;  left:0; right:0; margin:0;}
+.isikiri2{width:100%; position:absolute; left:0; right:0; margin:0; }
+.login {width:85%; top:65px; position:absolute; left:0; right:0; margin:0;}
+.login label { width:100px; float:left; }
+.isikanan{ width:100%; height:800px; margin-left:-100px; top:1200px; left:0; right:0; margin:0; clear:both;}
+.metode {width:100%;}
+.menukanan1{width:100%; height:500px; margin-bottom:10px; left:0; right:0; margin:0; }
+.menukanan2{width:100%; height:300px; left:0; right:0; margin:0;}
+.bawah{width:100%; position:absolute; bottom:0px; height:50px; top:2200px; left:0; right:0; margin:0;}
+}

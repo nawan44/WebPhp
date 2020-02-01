@@ -1,0 +1,108 @@
+<?php
+$kar1=strstr($_POST[email], "@");
+$kar2=strstr($_POST[email], ".");
+
+// Cek email pemesan di database
+$cek_email=mysql_num_rows(mysql_query("SELECT email FROM pemesan WHERE email='$_POST[email]'"));
+// Kalau email sudah ada yang pakai
+if ($cek_email > 0){
+echo "Email <b>$_POST[email]</b> sudah ada yang pakai.<br />
+<a href=javascript:history.go(-1)><b>Ulangi Lagi</b></a>";
+}
+elseif (empty($_POST[nama_lengkap])     || 
+empty($_POST[password]) 		|| 
+empty($_POST[alamat])   		|| 
+empty($_POST[telpon])   		|| 
+empty($_POST[email])    		|| 
+empty($_POST[kota])     		|| 
+empty($_POST[captcha])     		||
+empty($_POST[kode_pos])){
+/*
+echo  $_POST[nama_lengkap];
+echo "--";
+echo  $_POST[password];
+echo "--";
+echo  $_POST[alamat];
+echo "--";
+echo  $_POST[email];
+echo "--";
+echo  $_POST[telpon];
+echo "--";
+echo  $_POST[kode_pos];
+echo "--";
+echo  $_POST[captcha];
+echo "--";
+echo $_POST[kota];
+echo "<br>";*/
+echo "Data yang Anda isikan belum lengkap<br />
+							
+<a href='daftar-member.html'><b>Ulangi Lagi</b>";
+echo mysql_error();
+}
+elseif (!ereg("[a-z|A-Z]","$_POST[nama_lengkap]")){
+echo "Nama tidak boleh diisi dengan angka atau simbol.<br />
+<a href=javascript:history.go(-1)><b>Ulangi Lagi</b></a>";
+}
+elseif (strlen($kar1)==0 OR strlen($kar2)==0){
+echo "Alamat email Anda tidak valid, kurang tanda titik (.) atau tanda @.<br />
+<a href=javascript:history.go(-1)><b>Ulangi Lagi</b></a>";
+}
+else{
+// fungsi untuk mendapatkan isi keranjang belanja
+function isi_keranjang(){
+$isikeranjang = array();
+$sid = session_id();
+$sql = mysql_query("SELECT * FROM orders_penampung WHERE id_session='$sid'");
+							
+while ($r=mysql_fetch_array($sql)) {
+$isikeranjang[] = $r;
+}
+return $isikeranjang;
+}
+$tgl_skrg = date("Ymd");
+$jam_skrg = date("H:i:s");
+						
+if(!empty($_POST['captcha'])){
+if($_POST['captcha']==$_SESSION['captcha_session']){
+function antiinjection($data){
+ $filter_sql = mysql_real_escape_string(stripslashes(strip_tags(htmlspecialchars($data,ENT_QUOTES))));
+ return $filter_sql;
+}
+$nama		= antiinjection($_POST['nama_lengkap']);
+$alamat		= antiinjection($_POST['alamat']);
+$kode_pos	= antiinjection($_POST['kode_pos']);
+$telpon 	= antiinjection($_POST['telpon']);
+$email 		= antiinjection($_POST['email']);
+$password	= md5($_POST['password']);
+							
+// simpan data pemesan 
+ mysql_query("INSERT INTO pemesan(nama_lengkap, 
+  				  password, 
+				  alamat, 
+				  kode_pos, 
+				  telpon, 
+				  email, 
+				  id_kota) 
+VALUES       ('$nama',
+       	      '$password',
+       	      '$alamat', 
+	      '$kode_pos', 
+	      '$telpon',
+	      '$email',
+	      '$_POST[kota]')");					
+		 
+echo "<script>alert('Data anda telah tersimpan, selamat membeli ebook'); window.location = 'index.php'</script>
+</section>";		
+} //end if($_POST['captcha']==$_SESSION['captcha_session'])
+
+else{
+echo "Kode yang Anda masukkan tidak cocok<br />
+<a href=javascript:history.go(-1)><b>Ulangi Lagi</b></a>";
+
+}
+	} // end if(!empty($_POST['captcha']))
+else{
+echo "Anda belum memasukkan kode<br />
+<a href=javascript:history.go(-1)><b>Ulangi Lagi</b></a>";
+}	
+} //end else
