@@ -17,7 +17,7 @@ body,div{margin:0px;}
 .isikiri2{margin-left:-220px; margin-top:10px; width:200px; height:300px; }
 .banner{margin: 0;}
 .content{width:900px; height:auto; background-color:#9C3; top:80px; margin:0; position:absolute;}
-.isitengah{width:600px; height:1000px; float:left; background-color:#663; position:absolute;}
+.isitengah{width:80%; height:1000px; float:left; background-color:#663; position:absolute;}
 .isikanan{width:300px; height:auto; float:left; background:#FF0; margin-left:600px; position:absolute;}
 .isikanan1{width:280px; height:300px; border-radius:5px; margin:10px; background-color:#000;}
 .isikanan2{width:280px; height:300px; border-radius:5px; margin:10px; background-color:#666;}

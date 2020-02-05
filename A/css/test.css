@@ -3,7 +3,7 @@
 body,div{margin:0px;}
 .atas{width:100%; height:55px; background-color:#FC0;  z-index:1; position:fixed; }
 .form {background:#FC3; width:100%; height:auto; margin:0px; position:fixed; z-index:1;}
-.search {; padding:8px 15px; width:400px; height:25px; background:#FFF; border:1px solid #dbdbdb;}
+.search {padding:8px 15px; width:400px; height:25px; background:#FFF; border:1px solid #dbdbdb;}
 .button {position:relative; height:20px; width:40px; left:0px; margin:0px; border:2px solid #53bd84; background-color:#06F; color:#fafafa;}
 .button:hover  { background-color:#fafafa; color:#207cca;}
 .header{top:100px; bottom:550px; left:0; right:0;}
@@ -89,7 +89,7 @@ span.price{color: #ff8a00;}
 }
 .rangka{top:0; width:100%; right:0; left:0;  margin-left:-230px;}
 .tengah{
-	width: 100%;
+	width: 80%;
 	height: 1000px;
 	top: 370px;
 	position: absolute;
@@ -97,7 +97,7 @@ span.price{color: #ff8a00;}
 	right: 0;
 	margin: 0;
 	background-color: #999;
-	tclear: both;
+
 }
 .kere{
 	width: 100%;

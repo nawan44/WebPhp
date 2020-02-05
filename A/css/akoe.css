@@ -8,7 +8,7 @@ p{padding:2px; margin:0px;}
 .isi{width:100%; height:auto; margin-bottom:20px; right:0; left:0; margin:auto;}
 .konten {width:1200px; height:auto; background-color:#90F; margin-bottom:20px; right:0; left:0; margin:auto;}/* ungu */
 .kiri{float:left; width:180px; height:1300px;  margin-left:-1015px;  margin-top:40px;}/*abuAbu*/
-.tengah{float:left; width:730px; margin-top:40px; margin-left:185px; margin-right:5px; height:auto; left:180px; background-color:#CCC;}/*biruijo*/
+.tengah{float:left; width:80%; margin-top:40px; margin:0; background-color:#CCC;}/*biruijo*/
 .kanan{float:left; width:180px; height:1300px; margin-top:10px; }/* kuning */
 
 .footer{width:100%; background-color:#666; COLOR:#FFF; FONT-SIZE:16PX; text-align:center; position:relative; clear:both;  height:60px;  bottom:0; margin:auto; left:0; right:auto;}
@@ -87,13 +87,13 @@ span.reduce{color:#F00; text-decoration:line-through;}
 span.price{color:#00F;}
 .prod_price_big{padding:5px 0 5px 0; font-size:16px;}
 /*-------Tengah/center content--------------------------*/
-.center_content{width:700px; height:auto; float:left; padding:0px;}
+.center_content{width:80%; height:auto; float:left; padding:0px;}
 .center_title_bar{width:575px; height:31px; float:left; padding:0 0 0 10px; margin:0 0 0 5px; line-height:31px; font-size:12px; color:#159DCC; font-weight:bold; background:url(../images/bar_bg.gif) no-repeat center;}
 
 
 /*---------prod_box----------*/
-.prod_box{width:212px; height:auto; float:left; padding:10px 10px 10px 11px;}
-.center_prod_box{width:205px;height: auto;float:left; text-align:center;padding:0px; margin:0px; border:1px #F0F4F5 solid;}
+.prod_box{width:100%; height:auto; float:left; padding:10px 10px 10px 11px;}
+.center_prod_box{width:100%;height: auto;float:left; text-align:center;padding:0px; margin:0px; border:1px #F0F4F5 solid;}
 .prod_details_tab{width:205px; height:31px; float:left; }
 img.left_bt{float:left; padding:6px 0 0 6px;}
 a.prod_details{width:75px; height:24px; display:block; float:right; background:url(../images/link_bg.gif) no-repeat center;
@@ -102,7 +102,7 @@ a.prod_buy{width:75px; height:24px; display:block; float:left; background:url(..
 margin:2px 0 0 5px; text-align:center; line-height:24px; text-decoration:none; color:#006600;}
 /*---------prod_box_big----------*/
 .prod_box_big{width:554px; height:auto; float:left; padding:10px 10px 15px 15px;}
-.center_prod_box_big{width:650px; height:auto; float:left; text-align:center; padding:0 0 10px 0; margin:0px; border:1px #F0F4F5 solid;}
+.center_prod_box_big{width:100%; height:auto; float:left; text-align:center; padding:0 0 10px 0; margin:0px; border:1px #F0F4F5 solid;}
 .product_img_big{width:170px; padding:10px 0 0 10px; float:left;}
 .details_big_box{width:345px; float:left; padding:0 0 0 15px; text-align:left;}
 .product_title_big{color:#ff8a00; padding:5px 0 5px 0; font-weight:bold; font-size:14px;}
@@ -118,8 +118,8 @@ span.blue{color:#159DCC;}
 /*---------prod_box_big----------*/
 
 /*--------Awal--------Konfirmasi Pembayaran--------------*/
-.konkon_form{width:665px; height:auto; float:left; padding-left:40px; padding-top:10px; padding-right:70px; padding-bottom:50px;}
-.form_row{width:665px; height:auto; clear:both; padding:10px 0 10px 0; color:#a53d17;}
+.konkon_form{width:80%; height:auto; float:left; padding-left:40px; padding-top:10px; padding-right:70px; padding-bottom:50px;}
+.form_row{width:50%; height:auto; clear:both; padding:10px 0 10px 0; color:#a53d17;}
 .konfirm {width:665px; height:80px; text-align:center; color:#000; margin-top:15px; font-size:27px;}
 label.konkon{width:270px; float:left; font-size:12px; text-align:left; padding:4px 5px 0 0; color:#333333;}
 input.konkon_input{width:60%; height:18px; background-color:#fff; color:#999999; border:1px #DFDFDF solid; float:left;}
@@ -191,7 +191,7 @@ margin:2px 5px 0 0; text-align:center; line-height:24px; text-decoration:none; c
 .isi{width:100%; position:relative; left:0; right:0; height:auto; margin:auto;}
 .konten {width:100%; height:auto; background-color:#90F; left:0; right:0; margin:auto;}/* ungu */
 .kiri{float:left; width:100%; height:700px; margin-top:10px;}/*abuAbu*/
-.tengah{float:left; width:100%;height:auto; background-color:#CCC;}/*biruijo*/
+.tengah{float:left; width:80%;height:auto; background-color:#CCC;}/*biruijo*/
 .kanan{float:left; width:100%; height:800px; margin-top:10px; }/* kuning */
 .footer{width:100%; background-color:#666; COLOR:#FFF; FONT-SIZE:12PX;  text-align:center; position:relative; clear:both;  height:60px;  bottom:0px;}
 
@@ -249,8 +249,8 @@ input.hapus {width:50px; height:30px; background-color:#09F; border-radius:3px; 
 .center_content{width:100%;}
 .oferta{width:100%; height:auto; float:left; margin:0px; background:#0CF; border-radius:9px;}
 .oferta_text{width:100%; height:150px; margin-top:10px; color:#000; float:left;}
-.prod_box{width:100%; height:auto; float:left; padding:10px 10px 10px 11px;margin-top:5px;}
-.center_prod_box{width:100%;height: auto;float:left; text-align:center;padding:0px; margin:0px; border:1px #F0F4F5 solid;}
+.prod_box{width:80%; height:auto; float:left; padding:10px 10px 10px 11px;margin-top:5px;}
+.center_prod_box{width:80%;height: auto;float:left; text-align:center;padding:0px; margin:0px; border:1px #F0F4F5 solid;}
 .oferta_img{float:left; padding:0px;}
 .oferta_title{font-size:15px; color:#F00;; font-weight:bold;}
 .oferta_details{width:95%; float:left; padding:5px;}
